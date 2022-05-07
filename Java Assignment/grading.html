@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>grading</title>
+<script>
+function sum(){
+	var e,m,c,p,u;
+	e=parseInt(document.getElementById("eng").value);
+	m=parseInt(document.getElementById("math").value);
+	c=parseInt(document.getElementById("com").value);
+	p=parseInt(document.getElementById("pak").value);
+	u=parseInt(document.getElementById("urdu").value);
+	sumtotal=e+m+c+p+u;
+	parseInt(document.getElementById("h").innerHTML=sumtotal);	
+}
+function average(){
+	var e,m,c,p,u;
+	e=parseInt(document.getElementById("eng").value);
+	m=parseInt(document.getElementById("math").value);
+	c=parseInt(document.getElementById("com").value);
+	p=parseInt(document.getElementById("pak").value);
+	u=parseInt(document.getElementById("urdu").value);
+	sumtotal=e+m+c+p+u;
+	avg=sumtotal*100/500
+	parseInt(document.getElementById("h").innerHTML=avg);
+}
+function grade(){
+	var e,m,c,p,u;
+	e=parseInt(document.getElementById("eng").value);
+	m=parseInt(document.getElementById("math").value);
+	c=parseInt(document.getElementById("com").value);
+	p=parseInt(document.getElementById("pak").value);
+	u=parseInt(document.getElementById("urdu").value);
+	sumtotal=e+m+c+p+u;
+	avg=sumtotal*100/500
+	if(avg>=75 && avg<=100)
+	{
+	document.getElementById("h").innerHTML = "<span style='color:red;'>A grade</span>";
+	}
+	else if(avg>=60 && avg<=75)
+	{
+	document.getElementById("h").innerHTML = "B grade";
+	}
+	else if(avg>=45 && avg<=60)
+	{
+	document.getElementById("h").innerHTML = "C grade";
+	}	
+	else if(avg>=33 && avg<=45)
+	{
+	document.getElementById("h").innerHTML = "Pass";
+	}
+	else
+	{
+	document.write("Fail");
+	}
+}
+</script>
+
+<style>
+#ad:hover{
+	height:30px;
+	width:50px;
+}
+
+#avg:hover{
+	height:30px;
+	width:80px;
+}
+
+#gra:hover{
+	height:30px;
+	width:60px;
+}
+
+</style>
+</head>
+
+<body background="Education-Summit (1).jpg">
+<h1>Grading System</h1><br />
+<table>
+<tr>
+<td style="background-color:#666; opacity:0.9;"><label><span style="color:white;">English:</span></label></td> <td width="10"></td>
+<td><input type="number" id="eng" /></td>
+</tr>
+<tr>
+<td style="background-color:#666; opacity:0.9;"><label><span style="color:white;">Math:</span></label></td> <td width="10"></td>
+<td><input type="number" id="math" /></td>
+</tr>
+<tr>
+<td style="background-color:#666; opacity:0.9;"><label><span style="color:white;">Computer:</span></label></td> <td width="10"></td>
+<td><input type="number" id="com" /></td>
+</tr>
+<tr>
+<td style="background-color:#666; opacity:0.9;"><label><span style="color:white;">Pak-studies:</span></label></td> <td width="10"></td>
+<td><input type="number" id="pak" /></td>
+</tr>
+<tr>
+<td style="background-color:#666; opacity:0.9;"><label><span style="color:white;">Urdu:</span></label></td> <td width="10"></td>
+<td><input type="number" id="urdu" /></td>
+</tr></table><br />
+<table>
+<tr>
+<td><button onclick="sum()" id="ad">Sum</button></td>
+<td><button onclick="average()" id="avg">Average</button></td>
+<td><button onclick="grade()" id="gra">Grade</button></td>
+</tr></table>
+<table border="2" style="border-collapse:collapse;">
+<tr><br />
+<td width="250" height="30" id="h" style="background-color:#CCC; opacity:0.5;"></td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Javascript</title>
+<style>
+
+#first{
+	width:49%;
+	height:300px;
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+	float:left;
+}
+#second{
+	width:49%;
+	height:300px;
+	border-bottom:1px solid black;
+	border-left:1px solid black;
+	float:left;
+}
+#third{
+	width:49%;
+	height:330px;
+	border-top:1px solid black;
+	border-right:1px solid black;
+	float:left;
+}
+#forth{
+	width:49%;
+	height:330px;
+	border-top:1px solid black;
+	border-left:1px solid black;
+	float:left;
+}
+#no{
+	padding:150px;
+	font-size:24px;
+	color:#C03;
+	
+}
+#not{
+	padding:150px;
+	font-size:24px;
+	color:#C03;
+}
+#note{
+	padding:150px;
+	font-size:24px;
+    color:#C03;
+}
+#noted{
+	padding:150px;
+	font-size:24px;
+    color:#C03;
+}
+#lezz{
+	padding:10px;
+	font-weight:bold;
+	background-color:#333;
+	color:white;
+	opacity:0.6;
+}
+#h:hover{
+	height:25px;
+	width:38px;
+}
+#i:hover{
+	height:25px;
+	width:38px;
+}
+#j:hover{
+	height:25px;
+	width:38px;
+}
+#k:hover{
+	height:25px;
+	width:38px;
+}
+</style>
+<script>
+
+function calculate(){
+	var num;
+	num = parseInt(document.getElementById("valo").value);
+	if(num%2==0){
+	document.getElementById("display").innerHTML = "<span style=color:white>You have entered even value"; 
+	}else{
+		document.getElementById("display").innerHTML = "<span style=color:white>You have entered an odd value";
+		}
+	}
+	
+function complete(){
+	var time;
+	time = parseInt(document.getElementById("positive").value);
+	if(time>=0){
+	document.getElementById("play").innerHTML = "<span style=color:white>You have entered positive value"; 
+	}else{
+		document.getElementById("play").innerHTML = "<span style=color:white>You have entered negative value";
+		}
+	}
+	
+
+		
+function comparision(){
+	var time;
+	time = parseInt(document.getElementById("age").value);
+	if(time>=18){
+	document.getElementById("show").innerHTML = "<span style=color:white>You are good to cast vote"; 
+	}else{
+		document.getElementById("show").innerHTML = "<span style=color:white>You are not eligible to cast vote";
+		}
+	}
+
+</script>
+
+</head>
+
+<body background="images (17).jpg"> 
+<div id="first">
+<label id="no">Even or Odd</label><br /><br /><br />
+<label id="lezz">Enter Number:</label>
+<input type="number" id="valo" /><br /><br />
+<button onclick="calculate()" id="h" >Go</button><br /><br />
+<div style="border:1px solid black; width:250px; height:30px; background-color:#333; opacity:0.6" id="display"></div>
+</div>
+
+<div id="second">
+<label id="not">Positive or Negative</label><br /><br /><br />
+<label id="lezz">Enter Number:</label>
+<input type="number" id="positive" /><br /><br />
+<button onclick="complete()" id="i">Go</button><br /><br />
+<div style="border:1px solid black; width:250px; height:30px; background-color:#333; opacity:0.6;" id="play"></div>
+</div>
+
+<div id="third">
+<label id="note">Voting</label><br /><br /><br />
+<label id="lezz">Enter your age:</label>
+<input type="number" id="age" /><br /><br />
+<button onclick="comparision()" id="j">Go</button><br /><br />
+<div style="border:1px solid black; width:250px; height:30px; background-color:#333; opacity:0.6" id="show"></div>
+</div>
+
+<div id="forth">
+<label id="noted">Quadrent</label><br /><br /><br />
+<label id="lezz">1st Number:</label>
+<input type="number" id="quadrent" /><br /><br>
+<label id="lezz">2nd Number:</label>
+<input type="number" id="quadrent" /><br /><br />
+<button onclick="sum up()" id="k">Go</button><br /><br />
+<div style="border-right:solid #000; border-bottom:solid #000; width:50px; height:50px; float:left; background-color:#333; opacity:0.8" id="slow"><p align="center" style="color:white;">2</div>
+<div style="border-bottom:solid black; width:50px; height:50px; float:left; background-color:#333; opacity:0.8"><p align="center" style="color:white;">1</p></div>
+<br /><br /><br />
+<div style="border-right:solid black; width:50px; height:48px; float:left; background-color:#333; opacity:0.8"><p align="center" style="color:white;">3</div>
+<div style="width:50px; height:48px; float:left; background-color:#333; opacity:0.8"><p align="center" style="color:white;">4</p></div>
+</div>
+
+</body>
+</html>

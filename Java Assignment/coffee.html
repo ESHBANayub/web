@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script>
+function sum(){
+	var n,m,o;
+	n=document.getElementById("fre").value;
+	m=document.getElementById("colo").value;
+	o=document.getElementById("haz").value;
+parseInt(document.getElementById("a1").innerHTML= 3.49*n + 3.95*m + 4.59*o );
+	}
+	function submit(){
+		
+		alert("Order Submitted!")
+		}
+</script>
+
+<style>
+#add:hover{
+	height:27px;
+	width:90px;
+}
+#give:hover{
+	height:27px;
+	width:100px;
+}
+#remove:hover{
+	height:27px;
+	width:120px;
+}
+
+
+</style>
+</head>
+
+<body background="coffee-wallpaper-1306-1433-hd-wallpapers.jpg"> 
+<table align="center">
+<tr>
+<td><div style="padding:30px; font-size:36px; color:white; float:left;">Coffee Order Form</div><br /><br /><br /><br /><br /><br /><br /></td>
+</tr></table>
+<table border="2" align="center" style="background-color:#400000; opacity:1;">
+<tr>
+<th width="200" height="50" style="font-size:18px;color:white;">Product Name</th>
+<th width="100" style="font-size:18px;color:white;">Price</th>
+<th width="180" style="font-size:18px;color:white;">Quantity</th>
+</tr>
+<tr>
+<td height="30" align="center"style="color:white;">French Vanilla(1 lb.)</td>
+<td align="center"style="color:white;">$3.49</td>
+<td align="center"style="color:white;"><input type="number" id="fre" /></td>
+</tr>
+<tr>
+<td align="center" height="30"style="color:white;">Hazlenut Cream(1 lb.)</td>
+<td align="center"style="color:white;">$3.95</td>
+<td align="center"><input type="number" id="haz" /></td>
+</tr>
+<tr>
+<td height="30" align="center"style="color:white;">Colombian(1 lb.)</td>
+<td align="center"style="color:white;">$4.59</td>
+<td align="center"><input type="number" id="colo"/></td>
+</tr></table><br />
+<table>
+<tr>
+<td><pre>                                                           <button onclick="sum()" id="add" >Total cost($)</button></pre></td>
+<td><div  id="a1" style="border:1px solid black; width:250px; height:20px;background-color:#CCC; opacity:0.3;"></div></td>
+</tr>
+<tr>
+<td><pre>                                                           <button onclick="submit()" id="give">Submit Order</button></pre></td>
+<td><button onclick="clear()" id="remove">Clear order form</button></td>
+</tr>
+</table>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,415 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+#joker{
+	border:transparent;
+	height:90px;
+	width:90px;
+	border-radius:100px;
+	background:transparent;
+	position:relative;
+	animation-name:hey;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-duration:7s;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	animation-direction:alternate;
+
+/* Safari and Chrome: */
+-webkit-border-radius:100px;
+-webkit-animation-name:hey;
+-webkit-animation-duration:7s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:1s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+}
+@keyframes hey
+{
+0% {background:transparent; left:400px; top:200px;}
+25% {background:#CCC; left:500px; top:0px;}
+50% {background:transparent; left:700px; top:500px;}
+75% {background:#36C; left:100px; top:500px;}
+100% {background:transparent; left:0px; top:0px;}
+}
+@-webkit-keyframes hey /* Safari and Chrome */
+{
+0% {background:transparent; left:303px; top:200px;}
+25% {background:#CCC; left:400px; top:0px;}
+50% {background:transparent; left:400px; top:300px;}
+75% {background:#36C; left:0px; top:300px;}
+100% {background:transparent; left:0px; top:0px;}
+}
+#jam{
+	border:transparent;
+	height:90px;
+	width:90px;
+	border-radius:100px;
+	background:transparent;
+	position:relative;
+	animation-name:bro;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	animation-direction:alternate;
+
+/* Safari and Chrome: */
+-webkit-border-radius:100px;
+-webkit-animation-name:bro;
+-webkit-animation-duration:6s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:1s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+}
+@keyframes bro
+{
+0% {background:transparent; left:700px; top:300px;}
+25% {background:yellow; left:600px; top:0px;}
+50% {background:transparent; left:600px; top:400px;}
+75% {background:red; left:1600px; top:400px;}
+100% {background:transparent; left:0px; top:0px;}
+}
+@-webkit-keyframes bro /* Safari and Chrome */
+{
+0% {background:transparent; left:0px; top:0px;}
+25% {background:yellow; left:400px; top:0px;}
+50% {background:transparent; left:400px; top:300px;}
+75% {background:red; left:0px; top:300px;}
+100% {background:transparent; left:0px; top:0px;}
+}
+#jon{
+	border:transparent;
+	height:90px;
+	width:90px;
+	border-radius:100px;
+	background:transparent;
+	position:relative;
+	animation-name:syck;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	animation-direction:alternate;
+
+/* Safari and Chrome: */
+-webkit-border-radius:100px;
+-webkit-animation-name:syck;
+-webkit-animation-duration:6s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:1s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+}
+@keyframes syck
+{
+0% {background:transparent; left:1200px; top:0px;}
+25% {background:purple; left:300px; top:100px;}
+50% {background:transparent; left:300px; top:300px;}
+75% {background:purple; left:0px; top:0px;}
+100% {background:transparent; left:270px; top:300px;}
+}
+@-webkit-keyframes syck /* Safari and Chrome */
+{
+0% {background:transparent; left:0px; top:0px;}
+25% {background:purple; left:300px; top:0px;}
+50% {background:transparent; left:350px; top:300px;}
+75% {background:purple; left:330px; top:350px;}
+100% {background:transparent; left:200px; top:250px;}
+}
+#king{
+	border:transparent;
+	height:90px;
+	width:90px;
+	border-radius:100px;
+	background:transparent;
+	position:relative;
+	animation-name:sis;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	animation-direction:alternate;
+
+/* Safari and Chrome: */
+-webkit-border-radius:100px;
+-webkit-animation-name:sis;
+-webkit-animation-duration:4s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:1s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+}
+@keyframes sis
+{
+0% {background:transparent; left:0px; top:0px;}
+25% {background:green; left:800px; top:0px;}
+50% {background:transparent; left:0px; top:400px;}
+75% {background:green; left:300px; top:400px;}
+100% {background:transparent; left:0px; top:0px;}
+}
+@-webkit-keyframes sis /* Safari and Chrome */
+{
+0% {background:transparent; left:0px; top:400px;}
+25% {background:green; left:0px; top:0px;}
+50% {background:transparent; left:500px; top:400px;}
+75% {background:green; left:300px; top:400px;}
+100% {background:transparent; left:0px; top:0px;}
+}
+#kon{
+    border:transparent;
+	height:90px;
+	width:90px;
+	border-radius:100px;
+	background:transparent;
+	position:absolute;
+	animation-name:slug;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	animation-direction:alternate;
+
+/* Safari and Chrome: */
+-webkit-border-radius:100px;
+-webkit-animation-name:slug;
+-webkit-animation-duration:5s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:1s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+}
+@keyframes slug
+{
+0% {background:transparent; left:800px; top:200px;}
+25% {background:grey; left:200px; top:0px;}
+50% {background:transparent; left:300px; top:300px;}
+75% {background:grey; left:1600px; top:300px;}
+100% {background:transparent; left:400px; top:0px;}
+}
+@-webkit-keyframes slug /* Safari and Chrome */
+{
+0% {background:transparent; left:0px; top:0px;}
+25% {background:grey; left:300px; top:0px;}
+50% {background:transparent; left:300px; top:200px;}
+75% {background:grey; left:0px; top:200px;}
+100% {background:transparent; left:0px; top:0px;}
+}
+#cat{
+	border:transparent;
+	height:90px;
+	width:90px;
+	border-radius:100px;
+	background:transparent;
+	position:relative;
+	animation-name:slumber;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	animation-direction:alternate;
+
+/* Safari and Chrome: */
+-webkit-border-radius:100px;
+-webkit-animation-name:slumber;
+-webkit-animation-duration:5s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:1s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+}
+@keyframes slumber
+{
+0% {background:transparent; left:1000px; top:0px;}
+25% {background:#FC6; left:400px; top:0px;}
+50% {background:transparent; left:1400px; top:300px;}
+75% {background:#F09; left:100px; top:300px;}
+100% {background:transparent; left:1600px; top:0px;}
+}
+@-webkit-keyframes slumber /* Safari and Chrome */
+{
+0% {background:transparent; left:0px; top:0px;}
+25% {background:#FC6; left:200px; top:0px;}
+50% {background:transparent; left:200px; top:200px;}
+75% {background:#F09; left:0px; top:200px;}
+100% {background:transparent; left:0px; top:0px;}
+}
+#coat{
+	border:transparent;
+	height:90px;
+	width:90px;
+	border-radius:100px;
+	background:transparent;
+	position:relative;
+	animation-name:mazda;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	animation-direction:alternate;
+
+/* Safari and Chrome: */
+-webkit-border-radius:100px;
+-webkit-animation-name:mazda;
+-webkit-animation-duration:6s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:1s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+}
+@keyframes mazda
+{
+0% {background:transparent; left:300px; top:0px;}
+25% {background:#F36; left:1600px; top:70px;}
+50% {background:transparent; left:400px; top:0px;}
+75% {background:#CCC; left:300px; top:70px;}
+100% {background:transparent; left:0px; top:0px;}
+}
+@-webkit-keyframes mazda /* Safari and Chrome */
+{
+0% {background:transparent; left:0px; top:0px;}
+25% {background:#F36; left:400px; top:0px;}
+50% {background:transparent; left:400px; top:70px;}
+75% {background:#CCC; left:0px; top:70px;}
+100% {background:transparent; left:0px; top:0px;}
+}
+#lion{
+	border:transparent;
+	height:90px;
+	width:90px;
+	border-radius:100px;
+	background:transparent;
+	position:relative;
+	animation-name:cury;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	animation-direction:alternate;
+
+/* Safari and Chrome: */
+-webkit-border-radius:100px;
+-webkit-animation-name:cury;
+-webkit-animation-duration:6s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:1s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+}
+@keyframes cury
+{
+0% {background:transparent; left:300px; top:30px;}
+25% {background:#636; left:1100px; top:50px;}
+50% {background:transparent; left:700px; top:0px;}
+75% {background:#09F; left:900px; top:50px;}
+100% {background:transparent; left:0px; top:50px;}
+}
+@-webkit-keyframes cury /* Safari and Chrome */
+{
+0% {background:transparent; left:0px; top:100px;}
+25% {background:#636; left:800px; top:0px;}
+50% {background:transparent; left:400px; top:70px;}
+75% {background:#09F; left:0px; top:100px;}
+100% {background:transparent; left:0px; top:50px;}
+}
+#kong{
+	border:transparent;
+	height:90px;
+	width:90px;
+	border-radius:100px;
+	background:transparent;
+	position:relative;
+	animation-name:sorry;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	animation-direction:alternate;
+
+/* Safari and Chrome: */
+-webkit-border-radius:100px;
+-webkit-animation-name:sorry;
+-webkit-animation-duration:6s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:1s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+}
+@keyframes sorry
+{
+0% {background:transparent; left:300px; top:0px;}
+25% {background:#FCF; left:1500px; top:90px;}
+50% {background:transparent; left:1000px; top:50px;}
+75% {background:#906; left:700px; top:80px;}
+100% {background:transparent; left:60px; top:50px;}
+}
+@-webkit-keyframes sorry /* Safari and Chrome */
+{
+0% {background:transparent; left:0px; top:100px;}
+25% {background:#FCF; left:800px; top:0px;}
+50% {background:transparent; left:400px; top:70px;}
+75% {background:#906; left:0px; top:100px;}
+100% {background:transparent; left:0px; top:50px;}
+}
+#hen{
+	border:transparent;
+	height:90px;
+	width:90px;
+	border-radius:100px;
+	background:transparent;
+	position:relative;
+	animation-name:tiger;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	animation-direction:alternate;
+
+/* Safari and Chrome: */
+-webkit-border-radius:100px;
+-webkit-animation-name:tiger;
+-webkit-animation-duration:6s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:1s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+}
+@keyframes tiger
+{
+0% {background:transparent; left:900px; top:20px;}
+25% {background:#603; left:1300px; top:0px;}
+50% {background:transparent; left:340px; top:50px;}
+75% {background:#00C; left:500px; top:20px;}
+100% {background:transparent; left:60px; top:50px;}
+}
+@-webkit-keyframes tiger /* Safari and Chrome */
+{
+0% {background:transparent; left:0px; top:20px;}
+25% {background:#603; left:800px; top:0px;}
+50% {background:transparent; left:400px; top:70px;}
+75% {background:#00C; left:0px; top:20px;}
+100% {background:transparent; left:0px; top:50px;}
+}
+</style>
